@@ -2,9 +2,9 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Maft Tech',
+  title: 'Maft Tech COnsult',
   description: 'Created with v0',
-  generator: 'v0.dev',]
+  generator: 'v0.dev',
   icons:{
     icon:["./favicon.ico?v=4"],
     apple:["./apple-touch-icon.png?v=4"],

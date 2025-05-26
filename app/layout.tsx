@@ -4,7 +4,12 @@ import './globals.css'
 export const metadata: Metadata = {
   title: 'Maft Tech',
   description: 'Created with v0',
-  generator: 'v0.dev',
+  generator: 'v0.dev',]
+  icons:{
+    icon:["./favicon.ico?v=4"],
+    apple:["./apple-touch-icon.png?v=4"],
+    shortcut:["./apple-touch-icon.png"]
+  }
 }
 
 export default function RootLayout({

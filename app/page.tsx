@@ -14,7 +14,7 @@ import {
   Mail,
 } from "lucide-react"
 import Link from "next/link"
-import Head from "next/head"
+// import Head from "next/head"
 
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle, CardFooter } from "@/components/ui/card"
@@ -27,15 +27,15 @@ import WhatsAppChat from "./components/whatsapp-chat"
 
 export default function Home() {
   return (
-    <Head>
-      <link rel="icon" href="./favicon.ico" type="image/x-icon" />
-    </Head>
+    // <Head>
+    //   <link rel="icon" href="./favicon.ico" type="image/x-icon" />
+    // </Head>
     <div className="flex min-h-screen flex-col">
       <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="container flex h-16 items-center justify-between">
           <Link href="/" className="flex items-center gap-2 font-bold text-xl">
             <span className="text-primary">MAFT</span> Technology
-            <span className="text-xs text-muted-foreground">(Logo visible on tablet in hero image)</span>
+            {/* <span className="text-xs text-muted-foreground">(Logo visible on tablet in hero image)</span> */}
           </Link>
           <nav className="hidden md:flex gap-6">
             <Link href="#services" className="text-sm font-medium hover:text-primary transition-colors">

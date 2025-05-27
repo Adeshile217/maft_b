@@ -18,7 +18,7 @@ import Link from "next/link"
 
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle, CardFooter } from "@/components/ui/card"
-import LanguageSwitcher from "./components/language-switcher"
+// import LanguageSwitcher from "./components/language-switcher"
 import ChatBot from "./components/chat-bot"
 import ContactForm from "./components/contact-form"
 import ClientLogos from "./components/client-logos"
@@ -55,7 +55,7 @@ export default function Home() {
             </Link>
           </nav>
           <div className="flex items-center gap-4">
-            <LanguageSwitcher />
+            {/* <LanguageSwitcher /> */}
             <Button asChild>
               <a href="#contact">
                 <MessageSquareQuote className="mr-2 h-4 w-4" />

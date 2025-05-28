@@ -34,10 +34,10 @@ export default function Home() {
       <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="container flex h-16 items-center justify-between margin-0">
           <Link href="/" className="flex items-center gap-2 font-bold text-xl">
-            {/* <span className="text-primary">MAFT</span> Technology */}
             <span className="text-xs text-muted-foreground">
               <img src="/images/header/maft-project-logo.png" alt="maft-project-logo" />
             </span>
+            <span className="text-primary">MAFT</span> Technology
           </Link>
           <nav className="hidden md:flex gap-6">
             <Link href="#services" className="text-sm font-medium hover:text-primary transition-colors">

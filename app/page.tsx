@@ -36,7 +36,7 @@ export default function Home() {
           <Link href="/" className="flex items-center gap-2 font-bold text-xl">
             {/* <span className="text-primary">MAFT</span> Technology */}
             <span className="text-xs text-muted-foreground">
-              <img src="/image/header/maft-project-logo.png" alt="maft-project-logo" />
+              <img src="/images/header/maft-project-logo.png" alt="maft-project-logo" />
             </span>
           </Link>
           <nav className="hidden md:flex gap-6">
